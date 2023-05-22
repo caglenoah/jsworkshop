@@ -1,17 +1,11 @@
-const pets = 1;
-const hasMoreThanOnePet = pets > 1;
-console.log(hasMoreThanOnePet);
+function sayhello(name) {
+    console.log('hello' + name);
+}
 
-const hasOnePet = pets == 1;
-console.log(hasOnePet);
+sayhello('Noah')
 
-const keyword = 'stopp';
-console.log(keyword == stop);
+function multiply(a, b) {
+    console.log(a * b);
+}
 
-//inside the brackets must be a comparison, code in these brackets will only run if that comparison results in true
-//if (hasOnePet) {
-    console.log('welcome to the club');
-
-//console will read "welcome to the club"
-
-
+multiply(2, 10)
